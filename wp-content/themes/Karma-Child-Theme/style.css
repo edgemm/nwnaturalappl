@@ -1,0 +1,127 @@
+/*
+Theme Name:     Karma Child Theme
+Theme URI:      http://themeforest.net/item/karma-clean-and-modern-wordpress-theme/168737?ref=TrueThemes
+Description:    Child theme for the Karma theme 
+Author:         TrueThemes
+Author URI:     http://themeforest.net/user/TrueThemes?ref=TrueThemes
+Template:       Karma
+Version:        0.1.0
+*/
+
+@import url("../Karma/style.css");
+
+
+/* ------- Insert custom styles below this line ------- */
+
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {margin: 0 0 20px 0;font-weight: normal;color: #222;}
+p, ul, ol {color: #666;}
+p strong {color: #555;}
+.colored_box p strong {color: #FFF;}
+p {margin-bottom: 15px;}
+h1 {font-size:2.1em;}
+h2 {font-size:1.9em;}
+h3 {font-size:1.7em; line-height:22px; color:#5C2917;}
+h4 {font-size:1.5em;}
+h5 {font-size:1.3em;}
+h6 {font-size:.9em;color: #222;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;}
+
+p {
+	font-size: 14px;	
+		
+	}
+	
+.home-banner-main p {
+font-size: 15px;
+line-height: 21px;
+}
+
+h3 {
+	font-size: 17px;
+	line-height: 22px;
+	color: #5C2917;
+}
+
+#header .rays {
+background:url(images/_global/newwoodsmall.jpg) center no-repeat;
+}
+
+.big-banner .rays {
+background:url(images/_global/newwoodbig.jpg) center no-repeat!important;
+height:389px!important;
+}
+
+#header .header-area {
+width:980px;
+margin:0 auto;
+padding:38px 0 33px;
+}
+
+#header .logo {
+float:left;
+margin-left:6px;
+margin-top:-20px;
+outline:none;
+}
+
+.callout-wrap {float: left;width: 100%;padding-top: 20px;background:url(images/_global/separator3.gif) 0 0 repeat-x;margin: 10px 0 30px 0;}
+.callout-wrap span {padding-bottom: 25px;background:url(images/_global/separator3.gif) left bottom repeat-x;color: #5c2917;font-size:1.5em;line-height: 28px; text-align:center; display: block;}
+.callout2 {color: #222;font-size:1.5em;line-height: 28px;}
+
+.home-banner-main h2 {
+color:#5c2917!important;
+font-size:2em!important;
+line-height:1.1em!important;
+padding-bottom:5px!important;
+font-weight:700!important;
+}
+
+.modern_banner_small_smc {
+width: 510px;
+height: 324px;
+background-position: -5px -1844px !important;
+}
+
+.modern_preload_small_smc, .shadow_preload_small_smc, .post_thumb_shadow_load_smc {
+width: 493px;
+height: 288px;
+background: url(images/_global/preload.gif) center center no-repeat;
+margin: 8px 0 0 9px;
+float: left;
+}
+
+.modern_img_frame_smc {
+background: url(images/image-frame-sprite-2_smc.png) 0px 0px no-repeat;
+margin-bottom: 6px;
+}
+
+.portfolio_content_top_three_smc {
+float: left;
+height: 186px;
+width: 293px;
+background: url(images/image-frame-sprite-2_smc.png) -1px -279px no-repeat;
+}
+
+.modern_preload_small_smc2, .shadow_preload_small_smc2, .post_thumb_shadow_load_smc2 {
+width: 538px;
+height: 288px;
+background: url(images/_global/preload.gif) center center no-repeat;
+margin: 8px 0 0 9px;
+float: left;
+}
+
+.modern_img_frame_smc2 {
+width: 556px;
+height: 355px;
+background: url(images/global-sprite_smc.png) -1px -921px no-repeat;
+position: relative;
+}
+
+.top-block .toolbar-right .textwidget {
+	float: left;
+}
+.top-block .toolbar-right .textwidget:first-child {
+	margin-bottom: -5px;
+	position: relative;
+	z-index: 9999;
+}
